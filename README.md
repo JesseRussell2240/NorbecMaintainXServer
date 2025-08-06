@@ -66,25 +66,9 @@ nano .env
 Paste:
 ```env
 MAINTAINX_API_KEY=your_token_here
-```
-
-In `main.py`, replace any hardcoded key with:
-
-```python
-from dotenv import load_dotenv
-load_dotenv()
-BEARER_TOKEN = os.getenv("MAINTAINX_API_KEY")
-```
-
-Also add `.env` to `.gitignore` and untrack it:
-```bash
-echo ".env" >> .gitignore
-git rm --cached .env
-git commit -m "Remove .env from version control"
-git push origin main
-```
 
 ---
+
 
 ## 🧩 Updating the Sensor Database
 
