@@ -151,7 +151,7 @@ database = {
         {"category": "Pressure Monitor after Pump", "location": "Poly_1_Transfer", "parameter": "pressure",
          "data": {"meter_id": 323256, "tag_name": "PT_POL_5D_515", "last_sent_reading": None, "current_reading": None}},
         {"category": "Pressure Monitor after Pump", "location": "Poly_2_Transfer", "parameter": "pressure",
-         "data": {"meter_id": 323257, "tag_name": "PT_POL_7D_515", "last_sent_reading": None, "current_reading": None}}
+         "data": {"meter_id": 323257, "tag_name": "PT_POL_7D_515", "last_sent_reading": None, "current_reading": None}},
     
             # Pressure Before Pumps (Pressure Monitors)
         {"category": "Pressure Monitor before Pump", "location": "Pentane_Unloading", "parameter": "pressure",
