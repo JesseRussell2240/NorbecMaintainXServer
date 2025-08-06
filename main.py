@@ -32,7 +32,7 @@ if os.path.ismount(USB_MOUNT_PATH):
         format="%(asctime)s - %(levelname)s - %(message)s",
         level=logging.INFO
     )
-    logging.info("Logging initialized to USB.")
+    logging.info("Logging initialized to USB drive.")
 else:
     logging.basicConfig(level=logging.INFO)
     logging.warning("USB drive not mounted. Logging to console only.")
