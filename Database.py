@@ -152,5 +152,24 @@ database = {
          "data": {"meter_id": 323256, "tag_name": "PT_POL_5D_515", "last_sent_reading": None, "current_reading": None}},
         {"category": "Pressure Monitor after Pump", "location": "Poly_2_Transfer", "parameter": "pressure",
          "data": {"meter_id": 323257, "tag_name": "PT_POL_7D_515", "last_sent_reading": None, "current_reading": None}}
+    
+            # Pressure Before Pumps (Pressure Monitors)
+        {"category": "Pressure Monitor before Pump", "location": "Pentane_Unloading", "parameter": "pressure",
+         "data": {"meter_id": 435411, "tag_name": "PT_PNT_9F_005", "last_sent_reading": None, "current_reading": None}},
+        {"category": "Pressure Monitor before Pump", "location": "Pentane_Recirculating", "parameter": "pressure",
+         "data": {"meter_id": 435408, "tag_name": "PT_PNT_10F_515", "last_sent_reading": None, "current_reading": None}},
+        {"category": "Pressure Monitor before Pump", "location": "Iso_Unloading", "parameter": "pressure",
+         "data": {"meter_id": 435406, "tag_name": "PT_ISO_1A_005", "last_sent_reading": None, "current_reading": None}},
+        {"category": "Pressure Monitor before Pump", "location": "Iso_Transfer", "parameter": "pressure",
+         "data": {"meter_id": 435405, "tag_name": "PT_ISO_2C_505", "last_sent_reading": None, "current_reading": None}},
+        {"category": "Pressure Monitor before Pump", "location": "Poly_1_Unloading", "parameter": "pressure",
+         "data": {"meter_id": 435416, "tag_name": "PT_POL_4A_005", "last_sent_reading": None, "current_reading": None}},
+        {"category": "Pressure Monitor before Pump", "location": "Poly_2_Unloading", "parameter": "pressure",
+         "data": {"meter_id": 435419, "tag_name": "PT_POL_6A_005", "last_sent_reading": None, "current_reading": None}},
+        {"category": "Pressure Monitor before Pump", "location": "Poly_1_Transfer", "parameter": "pressure",
+         "data": {"meter_id": 435413, "tag_name": "PT_POL_5D_505", "last_sent_reading": None, "current_reading": None}},
+        {"category": "Pressure Monitor before Pump", "location": "Poly_2_Transfer", "parameter": "pressure",
+         "data": {"meter_id": 435418, "tag_name": "PT_POL_7D_505", "last_sent_reading": None, "current_reading": None}}
+
     ]
 }

@@ -8,12 +8,12 @@ import Database  # Importing the database module
 
 from dotenv import load_dotenv
 load_dotenv()
-BEARER_TOKEN = os.getenv("MAINTAINX_API_KEY") #access a local .env file to get tokin
+BEARER_TOKEN = os.getenv("MAINTAINX_API_KEY")
 
 
 # Define the base URL and the Bearer Token for authentication
 BASE_URL = 'https://api.getmaintainx.com/v1/meterreadings'
-
+#BEARER_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjY1NTI0Nywib3JnYW5pemF0aW9uSWQiOjIyOTAzMiwiaWF0IjoxNzE4MTE2MTU5LCJzdWIiOiJSRVNUX0FQSV9BVVRIIiwianRpIjoiNjJmYTcwMTQtMzQ3YS00NTQxLWFmNGEtYWQ2YTMxNTQ0M2EwIn0.elLIC-DazO5JOyqpS17xIQk_KhF6pKqY15MIDtyK4bI'
 # Define PLC connection details
 PLC_IP = '10.10.0.10'
 PLC_PORT = 44818  # Default for Rockwell PLCs
