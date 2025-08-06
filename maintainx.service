@@ -1,0 +1,17 @@
+[Unit]
+Description=Pull MaintainX Repo and Run main.py on Boot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=NorbecMaintainXserver
+WorkingDirectory=/home/NorbecMaintainXserver/Desktop/NorbecMaintainXServer
+ExecStart=/bin/bash -c '/usr/bin/git pull origin main && /usr/bin/python3 main.py'
+Restart=on-failure
+Environment=GIT_SSH_COMMAND=/usr/bin/ssh
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
